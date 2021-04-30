@@ -1,0 +1,5 @@
+#Ejercicio 21
+n=input("Ingresa un numero de 4 cifras: ")
+print("El numero ingresado es: ",n)
+n2=n[::-1]
+print("El numero ingresado de manera inversa es:", n2)
