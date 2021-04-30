@@ -1,0 +1,6 @@
+#Ejercicio 8
+import math
+radio =float(input("Ingresa el valor del radio del circulo(en metros): "))
+area = math.pi * pow(radio,2)
+perimetro = 2 * math.pi * radio
+print(" El valor del area  es: ", area, "M^2\n", "El valor del perimetro es: ", perimetro, "M^2")
