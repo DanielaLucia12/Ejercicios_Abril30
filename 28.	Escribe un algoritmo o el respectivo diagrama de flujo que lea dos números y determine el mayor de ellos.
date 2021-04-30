@@ -1,0 +1,7 @@
+#Ejercicio 28
+num1 = float(input("ingresa un numero: "))
+num2 = float(input("ingresa un numero: "))
+if num1 > num2 :
+    print("Numero mayor: ",num1,"\nNumero menor: ",num2)
+if num1 < num2 :
+    print("Numero mayor: ",num2,"\nNumero menor: ",num1)
