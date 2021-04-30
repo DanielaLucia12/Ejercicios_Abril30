@@ -1,0 +1,8 @@
+#Ejercicio 26
+num = float(input("ingresa un numero: "))
+if num >= 10 :
+    num = num * 3
+    print("Triple del numero ingresado",num)
+else:
+    num = num /4
+    print("Cuarta parte del numero ingresado", num)
