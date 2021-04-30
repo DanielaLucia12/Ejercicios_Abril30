@@ -1,0 +1,6 @@
+#Ejercicio 23
+a =float(input("Ingresa un numero: "))
+if a < 0 :
+    print("El numero",a, "es negativo")
+else:
+    print("El numero",a, "es positivo")
