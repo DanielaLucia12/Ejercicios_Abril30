@@ -1,0 +1,18 @@
+#Ejercicio 40
+dias = [0,"1-->lunes","2-->martes","3-->miercoles","4-->jueves","5-->viernes","6-->Sabado","7-->Domingo"]
+dia = int(input(" presiona 1 : para iniciar \n presiona 0 : para finalizar\n"))
+while dia != 0 :
+    try:
+        dia = int(input("Ingresa un dia de la semana (1 a 7) y (0 para salir): "))
+        if dia != 0:
+            if dia < 0 or dia > 7 :
+                print("Ingresa un numero entre 1 y 7")
+            elif dia > 0 and dia <=5:
+                temp ="."
+                print("Es {0} {1}".format(dias[dia],temp))
+            elif dia == 6 or dia == 7:
+                print("Es festivo")
+        else:
+            print("Fin")
+    except:
+            print("Ingresa un valor valido")
