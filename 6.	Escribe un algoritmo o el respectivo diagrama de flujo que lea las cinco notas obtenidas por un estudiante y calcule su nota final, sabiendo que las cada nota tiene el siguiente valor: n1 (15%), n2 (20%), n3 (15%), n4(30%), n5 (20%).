@@ -11,3 +11,22 @@ while 0 <= 5:
             nota1 = float(input("ingresa la nota numero 1: "))
             i = nota1
     elif count ==2:
+nota2 =float(input("ingresa la nota numero 2: "))
+            i = nota2
+    elif count == 3:
+            nota3 =float(input("ingresa la nota numero 3: "))
+            i = nota3
+    elif count == 4:
+            nota4 =float(input("ingresa la nota numero 4: "))
+            i = nota4
+    elif count == 5:
+            nota5 =float(input("ingresa la nota numero 5: "))
+            i = nota5
+
+    if i > 0 and  i <= 5:
+            count = count + 1
+    if count == 6:
+            break
+
+resultado = (nota1*p1) +( nota2*p2) +( nota3*p3) + (nota4*p4) +(nota5*p5)
+print ("Su nota definitiva es: “,resultado)
