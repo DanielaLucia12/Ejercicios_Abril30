@@ -1,0 +1,10 @@
+#Ejercicio 37
+n = int(input("ingresa un numero(no mayor a 100.000: "))
+cont = 0
+while n > 0:
+    if n < 100000:
+        n //= 10
+        cont = cont + 1
+    else:
+        print("Ingrese un numero menor a 100.000")
+print("El numero ingresado tiene",cont,"digitos")
