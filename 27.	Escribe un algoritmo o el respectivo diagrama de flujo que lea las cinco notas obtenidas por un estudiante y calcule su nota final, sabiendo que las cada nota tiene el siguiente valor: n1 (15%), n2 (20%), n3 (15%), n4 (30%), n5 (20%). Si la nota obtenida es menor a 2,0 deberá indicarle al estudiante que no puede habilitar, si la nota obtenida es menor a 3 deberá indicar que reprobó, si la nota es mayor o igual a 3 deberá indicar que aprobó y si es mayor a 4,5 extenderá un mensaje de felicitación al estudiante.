@@ -1,0 +1,36 @@
+#Ejercicio 27
+p1 = 0.15
+p2 = 0.15
+p3 = 0.20
+p4 = 0.20
+p5 = 0.30
+nota1=0
+nota2=0
+nota3=0
+nota4=0
+nota5=0
+count = 1
+while count <= 5:
+    nota=float(input("Ingrese la nota: "+str(count)+ " : " ))
+    print(nota)
+
+    if count == 1:
+            nota1 = nota * p1
+    if count == 2:
+            nota2 = nota * p2
+    if count == 3:
+            nota3 = nota * p3
+    if count == 4:
+            nota4 = nota * p4
+    if count == 5:
+            nota5 = nota * p5
+
+    count=count+1
+
+resultado = float(nota1 + nota2 + nota3 + nota4 + nota5)
+if resultado < 3:
+    print("Nota: ",resultado,"Reprobaste")
+elif resultado >= 3:
+    print("Nota: ",resultado,"Aprobaste")
+elif resultado > 4.5:
+    print("Nota: ",resultado,"Excelente aprobaste, tuviste una muy buena nota")
