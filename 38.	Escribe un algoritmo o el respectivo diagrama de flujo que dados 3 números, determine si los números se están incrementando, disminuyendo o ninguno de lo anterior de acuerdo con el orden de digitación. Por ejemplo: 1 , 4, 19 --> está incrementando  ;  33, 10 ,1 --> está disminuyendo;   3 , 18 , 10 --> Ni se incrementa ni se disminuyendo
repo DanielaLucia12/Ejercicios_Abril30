@@ -1,0 +1,10 @@
+#Ejercicio 38
+n1 = int(input("ingresa un numero: "))
+n2 = int(input("ingresa un numero: "))
+n3 = int(input("ingresa un numero: "))
+if n1 < n2 < n3 :
+    print("La secuencia de numeros se esta incrementando")
+elif  n1 > n2 > n3:
+    print("La secuencia de numeros se estan disminuyendo")
+else :
+    print("La secuencia de numeros ni se incrementan ni se disminuyen")
