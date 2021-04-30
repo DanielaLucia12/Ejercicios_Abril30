@@ -1,0 +1,20 @@
+#Ejercicio 53
+def pidenumero():
+    lista=[]
+    while True :
+        n =int(input("ingresa una cantidad de numeros y 0 para terminar: "))
+        if n == 0:
+            break
+        else:
+            lista.append(n)
+    return lista
+
+def mayorMenor(lista):
+    cont = 0
+    contt = 0
+    for i in lista:
+        if i > 100:
+            cont = cont + 1
+        if i < 100:
+            contt = contt + 1
+    return cont ,contt
