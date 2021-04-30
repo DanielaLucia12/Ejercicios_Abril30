@@ -1,0 +1,5 @@
+#Ejercicio 7
+precio = float(input("ingrese el valor del producto: "))
+iva = (precio  * 0.19)
+total = (precio + iva)
+print(" El valor del producto es: ",precio, "\n","El valor del iva es: ",iva,"\n", "El valor total a pagar con iva incluido es: ",total)
