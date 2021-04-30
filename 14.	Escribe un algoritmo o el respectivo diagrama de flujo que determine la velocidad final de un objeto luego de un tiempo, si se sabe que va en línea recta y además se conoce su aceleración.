@@ -1,0 +1,5 @@
+#Ejercicio 14
+aceleracion = float(input("ingresa el valor de la aceleracion (en m/s^2): "))
+tiempo = float(input ("ingresa el valor del tiempo (en seg ): "))
+velocidad_final = 0 + aceleracion * tiempo
+print("la velocidad final del objeto es de: " , velocidad_final,"m/s")
