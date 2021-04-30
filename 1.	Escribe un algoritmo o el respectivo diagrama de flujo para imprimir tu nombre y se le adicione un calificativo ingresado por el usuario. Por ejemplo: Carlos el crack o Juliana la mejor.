@@ -1,0 +1,4 @@
+#Ejercicio 1
+nombre = "Daniela"
+calificativo=str(input("Ingresa un calificativo: "))
+print(nombre, calificativo) 
