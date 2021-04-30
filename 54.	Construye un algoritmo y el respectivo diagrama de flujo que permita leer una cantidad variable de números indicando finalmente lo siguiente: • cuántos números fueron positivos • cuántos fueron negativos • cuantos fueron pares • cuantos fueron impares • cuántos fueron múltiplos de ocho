@@ -1,0 +1,46 @@
+#Ejercicio 54
+def pidenumero():
+    lista = []
+    while True:
+        n = float(input("Ingresa una cantidad de numeros y 0 para terminar: "))
+        if n == 0:
+            break
+        else:
+            lista.append(n)
+    return lista
+
+def parImpar(lista):
+    cont = 0
+    contt = 0
+    for i in lista:
+        if i % 2 == 0:
+            cont = cont + 1
+        elif i % 2 != 0:
+            contt = contt + 1
+    return cont, contt
+
+def me0Ma0(lista):
+    me0 = 0
+    ma0 = 0
+    for j in lista:
+        if j > 0:
+            ma0 = ma0 + 1
+        else:
+            me0 = me0 + 1
+    return me0, ma0
+
+def multiplo8(lista):
+    mult8 = 0
+    for k in lista:
+        if k % 8 == 0:
+            mult8 = mult8 + 1
+    return mult8
+
+lista = pidenumero()
+cont, contt = parImpar(lista)
+me0, ma0 = me0Ma0(lista)
+mult8 = multiplo8(lista)
+
+print(cont, "son pares y ",contt, "son impares")
+print(ma0, "son mayores a 0 y ",me0, "son menores a 0")
+print(mult8, "son multiplos de 8")
