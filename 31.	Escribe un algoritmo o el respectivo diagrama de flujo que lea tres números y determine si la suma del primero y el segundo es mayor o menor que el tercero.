@@ -1,0 +1,9 @@
+#Ejercicio 31
+numero_1=int(input("ingresa un numero: "))
+numero_2=int(input("ingresa un numero: "))
+numero_3=int(input("ingresa un numero: "))
+suma = numero_1 + numero_2
+if suma > numero_3:
+    print("Suma de los dos primeros numeros: ",suma,"(es mayor que el tercer numero) ")
+else :
+    print ("Suma de los dos primeros numeros: ",suma,"(es menor que el tercer numero)
