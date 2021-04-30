@@ -1,0 +1,6 @@
+#Ejercicio 3
+n1=float(input("Introduzca un número: "))
+n2=float(input("Introduzca un número: "))
+suma=n1+n2
+
+print("La suma de los numeros es: ",suma)
