@@ -1,0 +1,7 @@
+#Ejercicio 36
+numeros = ["0->cero","1->uno","2->dos","3->tres","4->cuatro","5->cinco","6->seis","7->siete","8->ocho","9->nueve","10->diez"]
+n = int(input ("ingresa un numero del 1 al 10: "))
+if n >= 0 and n <= 10:
+    print(numeros[n])
+else:
+    print("ingresa un numero entre 1 y 10")
