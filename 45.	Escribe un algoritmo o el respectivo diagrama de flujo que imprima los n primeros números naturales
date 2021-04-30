@@ -1,0 +1,4 @@
+#Ejercicio 45
+n=int(input("Ingresa un numero: "))
+for i in range (n):
+    print(i)
