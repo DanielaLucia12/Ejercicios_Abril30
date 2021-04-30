@@ -1,0 +1,11 @@
+#Ejercicio 35
+print("Usuario: User123 Contraseña: 12345 ")
+print("Inicia sesion:")
+while True:
+    user = str (input("Ingresa el usuario: "))
+    password = int(input("Ingresa la contraseña: "))
+    if user == "User123" and password == 12345:
+        print("Has iniciado sesion exitosamente", user)
+        break
+    else:
+        print("Datos incorrectos, ingresa nuevamente")
