@@ -1,0 +1,3 @@
+#Ejercicio 57
+cadena = str(input("ingresa una palabra: "))
+print(cadena[::-1])
