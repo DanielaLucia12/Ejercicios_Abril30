@@ -18,3 +18,7 @@ def mayorMenor(lista):
         if i < 100:
             contt = contt + 1
     return cont ,contt
+
+lista =pidenumero()
+cont,contt= mayorMenor(lista)
+print(cont, " son los numeros mayores a 100 y",contt, "son los numeros menores a 100")
