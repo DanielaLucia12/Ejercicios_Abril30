@@ -1,0 +1,9 @@
+#Ejercicio 11
+a = int(input("ingresa un numero: "))
+b = int(input("ingresa un numero: "))
+print("El valor de A es: ",a)
+print("El valor de B es: ",b)
+temporal = a
+a = b
+b = temporal
+print("Al intercambiar los valores\n" "A es: ",a, "\nB es: ",b)
