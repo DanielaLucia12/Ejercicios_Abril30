@@ -1,0 +1,4 @@
+#Ejercicio 18
+segundos = float(input("ingresa los segundos que quieres pasar a minutos: "))
+minutos = segundos / 60
+print(segundos, "segundos" , "son", minutos,"minutos")
