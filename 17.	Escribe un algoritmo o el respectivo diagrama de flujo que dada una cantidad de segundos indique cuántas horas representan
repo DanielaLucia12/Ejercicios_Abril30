@@ -1,0 +1,4 @@
+#Ejercicio 17
+segundos = float(input("ingresa los segundos que quieres pasar a horas: "))
+horas = segundos / 3600
+print(segundos, "segundos" , "son", horas,"horas")
