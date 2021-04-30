@@ -1,0 +1,13 @@
+#Ejercicio 6
+p1 = 0.15
+p2 = 0.15
+p3 = 0.20
+p4 = 0.20
+p5 = 0.30
+count = 1
+while 0 <= 5:
+    i = 0
+    if count == 1:
+            nota1 = float(input("ingresa la nota numero 1: "))
+            i = nota1
+    elif count ==2:
