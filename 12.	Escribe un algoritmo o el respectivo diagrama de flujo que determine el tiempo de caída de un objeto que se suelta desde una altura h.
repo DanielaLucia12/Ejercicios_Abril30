@@ -1,0 +1,5 @@
+import math
+gravedad = 9.81
+altura = float(input("Ingrese la altura desde la cual es lanzado el objeto( en metros ): "))
+tiempo = math.sqrt ((2*altura)/gravedad)
+print ("El tiempo de caida del objeto es de: ",tiempo,"segundos")
