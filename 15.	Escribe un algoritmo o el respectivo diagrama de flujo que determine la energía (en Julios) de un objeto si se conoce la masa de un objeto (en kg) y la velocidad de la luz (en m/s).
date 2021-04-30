@@ -1,0 +1,5 @@
+#Ejercicio 15
+masa = float(input("ingresa la masa del objeto( en kg): "))
+velocidad = float(input("ingresa la velocidad del objeto( en m/s): "))
+Energia = (masa * pow(velocidad,2))/2
+print("El valor de la energia del objeto es de: ",Energia ,"julios")
