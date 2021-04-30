@@ -1,0 +1,10 @@
+#Ejercicio 24
+num =float(input("ingresa un numero: "))
+if num < 0 and num % 2 == 0 :
+    print(num,"Es negativo par")
+elif num < 0 and num % 2 != 0 :
+    print(num,"Es negativo impar")
+elif num > 0 and num % 2 == 0 :
+    print(num,"Es positivo par")
+elif num > 0 and num % 2 != 0 :
+    print(num,"Es positivo impar")
