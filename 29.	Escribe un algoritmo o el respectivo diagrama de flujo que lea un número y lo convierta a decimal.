@@ -1,0 +1,3 @@
+Ejercicio 29
+num=int(input("Ingresa un numero: "))
+print(float(num))
