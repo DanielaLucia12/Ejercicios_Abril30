@@ -1,0 +1,6 @@
+#Ejercicio 19
+numero=int(input("ingrese los segundos: "))
+hora=(int(numero/3600))
+minutos=int((numero-(hora*3600))/60)
+segundos=numero-((hora*3600)+(minutos*60))
+print(str(hora),"h:",str(minutos),"m:",str(segundos),"s")
