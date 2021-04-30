@@ -1,0 +1,9 @@
+#Ejercicio 4
+n1=int(input("Introduzca un número: "))
+n2=int(input("Introduzca un número: "))
+suma=(n1+n2)
+resta=(n1-n2)
+multiplicacion=(n1*n2)
+division=(n1/n2)
+residuo=(n1%n2)
+print("suma", suma, "resta", resta, "multiplicacion", multiplicacion, "division", division, "residuo", residuo)
